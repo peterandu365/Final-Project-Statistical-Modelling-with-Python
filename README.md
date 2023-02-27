@@ -72,7 +72,7 @@ By dropping the duplicated categories from yelp API, the merged data frame shape
 | cube root | POI_rating_mean | 0.5415 | 0.000 | Yes | No |
 
 <div style="text-align:center">
-<img src="../images/step_4_result.png"  width="800">
+<img src="./images/step_4_result.png"  width="800">
 </div>
 
 #### Takeaways
@@ -93,7 +93,7 @@ By dropping the duplicated categories from yelp API, the merged data frame shape
 * This is a violation of the assumption of normality. For educational purposes, I will still practice using the OLS model to fit the data. However, in real life, the GLM model should be used to fit the data. Or when requesting the data, we can either use a smaller radius or purchase a higher API limit, to ensure this variable is in a normality distribution.
 
 <div style="text-align:center">
-<img src="../images/restaurant_50_skewed.png"  width="800">
+<img src="./images/restaurant_50_skewed.png"  width="800">
 </div>
 
 ## Challenges 
